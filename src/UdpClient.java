@@ -15,7 +15,7 @@ public class UdpClient {
             DatagramPacket sendPacket = new DatagramPacket(
                     mensageToBuffer,
                     mensageToBuffer.length,
-                    InetAddress.getByName("127.0.0.1"), 6624);
+                    InetAddress.getByName("127.0.0.1"), 9987);
             //enviei a mensagem
 
             clientSocket.send(sendPacket);
