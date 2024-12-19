@@ -16,7 +16,7 @@ public class UdpClient {
                     mensageToBuffer,
                     mensageToBuffer.length,
                     InetAddress.getByName("127.0.0.1"), 6624);
-            //enviei
+            //enviei a mensagem
 
             clientSocket.send(sendPacket);
             //e fechei aqui temporariamente enquanto tento enviar uma mensagem depois apago
